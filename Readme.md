@@ -1,6 +1,7 @@
 # Exploiting Raw Images for Real-Scene Super-Resolution
 
-This repository is for the rawSR algorithm introduced in the TPAMI paper *Exploiting raw images for real-scene super-resolution*.
+This repository is for the rawSR algorithm introduced in the TPAMI paper [*Exploiting raw images for real-scene super-resolution*](https://arxiv.org/pdf/2102.01579.pdf).
+
 
 ## Contents
 
