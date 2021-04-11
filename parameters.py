@@ -21,14 +21,14 @@ Scale = 4
 
 # path parameter: path for training and testing data
 # change the path to where you place the downloaded data
-TRAINING_DATA_PATH = '../Dataset/Training'
-TESTING_DATA_PATH = '../Dataset/Testing'
-REAL_DATA_PATH = '../Dataset/Real'
+TRAINING_DATA_PATH = './Dataset/Training'
+TESTING_DATA_PATH = './Dataset/Testing'
+REAL_DATA_PATH = './Dataset/Real'
 SUBFOLDER_TRAININGDATA = 'TrainingSet'
 SUBFOLDER_GROUNDTRUTH = 'GT'
 SUBFOLDER_ISP = 'ISP'
-RESULT_PATH = '../test_result'
-LOG_DIR = '../log_dir'
+RESULT_PATH = './test_result'
+LOG_DIR = './log_dir'
 FILENAME_REPORT = 'record.txt'
 
 # model parameter: other parameter required no matter for training or testing

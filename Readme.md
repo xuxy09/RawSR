@@ -55,15 +55,15 @@ image.
 
 * Prepare training data
     1. Download the raw super-resolution dataset (13040 training and 150 validation images) from [Google Drive][[x2](https://drive.google.com/file/d/1U0EvzwAB7Dq7bLeit595gNpEKU4ya0wl/view?usp=sharing)][[x4](https://drive.google.com/drive/folders/1JQN8rKEHiq19RFxzNGOa4SiasFR1vb4g?usp=sharing)]
-    2. Place the downloaded dataset to '/RawSR/' with folder name 'Dataset'
+    2. Place the downloaded dataset to './Dataset'
 
 * Begin to train
-    1. (optional) Download the pretrained  weights and place them in '/RawSR/' with folder name 'log_dir'
-    2. Cd into '/RawSR/code' and run the following script to train our model:
+    1. (optional) Download the pretrained  weights and place them in './log_dir'
+    2. Run the following script to train our model:
         ```
         python train_and_test.py
         ```
-    3. For different purposes, you can access '/RawSR/parameters.py' to change parameters according to the annotations. The default setting is to train the model from 0 epoch without pretrained weights, and the validation images will be leveraged to test model performance per 10 epochs. 
+    3. For different purposes, you can access './parameters.py' to change parameters according to the annotations. The default setting is to train the model from 0 epoch without pretrained weights, and the validation images will be leveraged to test model performance per 10 epochs. 
 
 <h3 id="4">Test</h3>
 
@@ -73,24 +73,24 @@ image.
         [[x2](https://drive.google.com/open?id=1hoXGO_4vWRmRFoMIiQ32KwN_12kgNn7j)]
         [[x4](https://drive.google.com/drive/folders/1GB1QdPOQaW9iU-zdDXaTeesfEGvCpPj4?usp=sharing)]]  
         [BaiduNetdisk][[x2](https://pan.baidu.com/s/1z972Ic5X3zmMdwkMeOwA2w)]
-        2. Place the downloaded dataset to '/RawSR/Dataset/' with folder name 'TESTING' or modify the 'TESTING_DATA_PATH' of parameters.py  to the corresponding path.
+        2. Place the downloaded dataset to './Dataset/' with folder name 'TESTING' or modify the 'TESTING_DATA_PATH' of parameters.py  to the corresponding path.
     
     * Real data
         1. If you wish to test real data, you can prepare the raw image yourself, or download some examples from 
         [[Google Drive](https://drive.google.com/drive/folders/1EfRQV0Cvn1JFl1XGG3r3r9iHPvplmB7L?usp=sharing)].
-        2. Place the downloaded dataset or your prepared raw images (like .CR, .RAW, .NEF and etc.) to '/RawSR/Dataset/' with folder name 'REAL' or modify the 'REAL_DATA_PATH' of 'parameters.py' to corresponding path.
+        2. Place the downloaded dataset or your prepared raw images (like .CR, .RAW, .NEF and etc.) to './Dataset/' with folder name 'REAL' or modify the 'REAL_DATA_PATH' of 'parameters.py' to corresponding path.
     
 * Begin to test
     * Synthetic data
         1. Set 'TRAINING' and 'TESTING' of 'parameters.py' to be False and True respectively.
         2. Download the pretrained models through [Google Drive] [[x2](https://drive.google.com/drive/folders/1l91w51ou-p_2cVVbUCWDLGRUv_twnWcd?usp=sharing)], 
-        [[x4](https://drive.google.com/drive/folders/1ZCp22cjZrKrQEoLC70YGnf8JbOGyw53P?usp=sharing)], and then place it to '/RawSR/' with folder name 'log_dir'.
+        [[x4](https://drive.google.com/drive/folders/1ZCp22cjZrKrQEoLC70YGnf8JbOGyw53P?usp=sharing)], and then place it to './log_dir'.
     
     * Real image
         1. Set 'REAL' of 'parameters.py' to be True.
-        2. Download the pretrained models through [Google Drive] [[x4](https://drive.google.com/drive/folders/1ZCp22cjZrKrQEoLC70YGnf8JbOGyw53P?usp=sharing)], and then place it to '/RawSR/' with folder name 'log_dir'.
+        2. Download the pretrained models through [Google Drive] [[x4](https://drive.google.com/drive/folders/1ZCp22cjZrKrQEoLC70YGnf8JbOGyw53P?usp=sharing)], and then place it to './log_dir'.
     
-        And then, cd '/RawSR/code' and run the following script for testing:
+        And then, run the following script for testing:
             ```
             python train_and_test.py
             ```
