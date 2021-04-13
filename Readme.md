@@ -2,7 +2,7 @@
 
 This repository is for the rawSR algorithm introduced in the TPAMI paper [*Exploiting raw images for real-scene super-resolution*](https://arxiv.org/pdf/2102.01579.pdf).
 
-Conference version: [Towards real scene super-resolution with raw images](https://arxiv.org/abs/1905.12156)
+Conference version: [Towards real scene super-resolution with raw images, CVPR 2019](https://arxiv.org/abs/1905.12156)
 
 [Paper](https://arxiv.org/pdf/2102.01579.pdf), [Project](https://sites.google.com/view/xiangyuxu/rawsr_pami)
 
