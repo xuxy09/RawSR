@@ -2,6 +2,8 @@
 
 This repository is for the rawSR algorithm introduced in the TPAMI paper [*Exploiting raw images for real-scene super-resolution*](https://arxiv.org/pdf/2102.01579.pdf).
 
+Conference version: [Towards real scene super-resolution with raw images](https://arxiv.org/abs/1905.12156)
+
 [Paper](https://arxiv.org/pdf/2102.01579.pdf), [Project](https://sites.google.com/view/xiangyuxu/rawsr_pami)
 
 ## Contents
@@ -90,7 +92,7 @@ image.
     
     * Real image
         1. Set 'REAL' of 'parameters.py' to be True.
-        2. Download the pretrained models through [Google Drive] [[x4](https://drive.google.com/drive/folders/1ZCp22cjZrKrQEoLC70YGnf8JbOGyw53P?usp=sharing)], and then place it to './log_dir'.
+        2. Download the pretrained models through [Google Drive] [[x2](https://drive.google.com/drive/folders/1l91w51ou-p_2cVVbUCWDLGRUv_twnWcd?usp=sharing)], [[x4](https://drive.google.com/drive/folders/1ZCp22cjZrKrQEoLC70YGnf8JbOGyw53P?usp=sharing)], and then place it to './log_dir'.
     
         And then, run the following script for testing:
             ```
