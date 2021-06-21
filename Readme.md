@@ -137,13 +137,11 @@ All mentioned results of our algorithm can be found at [Google Drive]
 
 <h id="r3">[3] J. Kim, J. K. Lee, and K. M. Lee. Accurate image super-resolution using very deep convolutional networks. In CVPR, 085 2016.</h3>
 
-<h id="r4">[4] E. Schwartz, R. Giryes, and A. M. Bronstein. Deepisp: To- 087 wards learning an end-to-end image processing pipeline. TIP, 088 2018.</h3>
+<h id="r4">[4] E. Schwartz, R. Giryes, and A. M. Bronstein. Deepisp: Towards learning an end-to-end image processing pipeline. TIP, 088 2018.</h3>
 
-<h id="r4">[5] T. Tong, G. Li, X. Liu, and Q. Gao. Image super-resolution 090
-using dense skip connections. In ICCV, 2017.</h3>
+<h id="r4">[5] T. Tong, G. Li, X. Liu, and Q. Gao. Image super-resolution using dense skip connections. In ICCV, 2017.</h3>
 
-<h id="r4">[6] Y. Zhang, Y. Tian, Y. Kong, B. Zhong, and Y. Fu. Residual 091
-dense network for image super-resolution. In CVPR, 2018.</h3>
+<h id="r4">[6] Y. Zhang, Y. Tian, Y. Kong, B. Zhong, and Y. Fu. Residual dense network for image super-resolution. In CVPR, 2018.</h3>
 
 
 
